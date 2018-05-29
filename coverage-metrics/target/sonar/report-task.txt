@@ -1,6 +1,0 @@
-projectKey=training:test-ut2
-serverUrl=http://localhost:9673
-serverVersion=6.7.3.38370
-dashboardUrl=http://localhost:9673/dashboard/index/training:test-ut2
-ceTaskId=AWOSV7l2gwdV33jUVWz5
-ceTaskUrl=http://localhost:9673/api/ce/task?id=AWOSV7l2gwdV33jUVWz5
