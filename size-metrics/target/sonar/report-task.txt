@@ -1,0 +1,6 @@
+projectKey=training:size-metrics
+serverUrl=http://localhost:9673
+serverVersion=6.7.3.38370
+dashboardUrl=http://localhost:9673/dashboard/index/training:size-metrics
+ceTaskId=AWOSR3C7gwdV33jUVWzT
+ceTaskUrl=http://localhost:9673/api/ce/task?id=AWOSR3C7gwdV33jUVWzT

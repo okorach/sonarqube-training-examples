@@ -1,0 +1,5 @@
+projectKey=Gov1
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/Gov1
+ceTaskId=AVxiv5OPsT7qJA1IQca6
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVxiv5OPsT7qJA1IQca6

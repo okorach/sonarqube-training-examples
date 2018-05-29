@@ -1,0 +1,148 @@
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=128m; support was removed in 8.0
+[INFO] Scanning for projects...
+[WARNING] The metadata /Users/Olivier/.m2/repository/org/jacoco/jacoco-maven-plugin/maven-metadata-sonarsource.com.xml is invalid: entity reference name can not contain character =' (position: START_TAG seen ...= "http://login.netinary.net/detect.php?called_by=index&nyretries=... @15:101) 
+[WARNING] The metadata /Users/Olivier/.m2/repository/org/apache/maven/plugins/maven-metadata-sonarsource.com.xml is invalid: entity reference name can not contain character =' (position: START_TAG seen ...= "http://login.netinary.net/detect.php?called_by=index&nyretries=... @15:101) 
+[WARNING] The metadata /Users/Olivier/.m2/repository/org/codehaus/mojo/sonar-maven-plugin/maven-metadata-sonarsource.com.xml is invalid: entity reference name can not contain character =' (position: START_TAG seen ...= "http://login.netinary.net/detect.php?called_by=index&nyretries=... @15:101) 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Training: Coverage Metrics 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The metadata /Users/Olivier/.m2/repository/org/jacoco/jacoco-maven-plugin/maven-metadata-sonarsource.com.xml is invalid: entity reference name can not contain character =' (position: START_TAG seen ...= "http://login.netinary.net/detect.php?called_by=index&nyretries=... @15:101) 
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ example-coverage ---
+[INFO] Deleting /Users/Olivier/training/sample_projects/coverage_metrics/target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.1:prepare-agent (default-cli) @ example-coverage ---
+[INFO] argLine set to -javaagent:/Users/Olivier/.m2/repository/org/jacoco/org.jacoco.agent/0.8.1/org.jacoco.agent-0.8.1-runtime.jar=destfile=/Users/Olivier/training/sample_projects/coverage_metrics/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ example-coverage ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Olivier/training/sample_projects/coverage_metrics/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ example-coverage ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/Olivier/training/sample_projects/coverage_metrics/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ example-coverage ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/Olivier/training/sample_projects/coverage_metrics/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ example-coverage ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/Olivier/training/sample_projects/coverage_metrics/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ example-coverage ---
+[INFO] Surefire report directory: /Users/Olivier/training/sample_projects/coverage_metrics/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+objc[57347]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/bin/java (0x1030254c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x1030e34e0). One of the two will be used. Which one is undefined.
+Running coverage_metrics.CoverageMetricsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.197 sec
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ example-coverage ---
+[INFO] Building jar: /Users/Olivier/training/sample_projects/coverage_metrics/target/example-coverage-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ example-coverage ---
+[INFO] Installing /Users/Olivier/training/sample_projects/coverage_metrics/target/example-coverage-1.0-SNAPSHOT.jar to /Users/Olivier/.m2/repository/org/sonarqube/example-coverage/1.0-SNAPSHOT/example-coverage-1.0-SNAPSHOT.jar
+[INFO] Installing /Users/Olivier/training/sample_projects/coverage_metrics/pom.xml to /Users/Olivier/.m2/repository/org/sonarqube/example-coverage/1.0-SNAPSHOT/example-coverage-1.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Training: Coverage Metrics 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The metadata /Users/Olivier/.m2/repository/org/apache/maven/plugins/maven-metadata-sonarsource.com.xml is invalid: entity reference name can not contain character =' (position: START_TAG seen ...= "http://login.netinary.net/detect.php?called_by=index&nyretries=... @15:101) 
+[WARNING] The metadata /Users/Olivier/.m2/repository/org/codehaus/mojo/sonar-maven-plugin/maven-metadata-sonarsource.com.xml is invalid: entity reference name can not contain character =' (position: START_TAG seen ...= "http://login.netinary.net/detect.php?called_by=index&nyretries=... @15:101) 
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.4.0.905:sonar (default-cli) @ example-coverage ---
+[INFO] User cache: /Users/Olivier/.sonar/cache
+[INFO] SonarQube version: 6.7.3
+[INFO] Default locale: "en_US", source code encoding: "UTF-8"
+[INFO] Publish mode
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=167ms
+[INFO] Server id: AWKpgjihuRFREytYPGzR
+[INFO] User cache: /Users/Olivier/.sonar/cache
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=71ms
+[INFO] Process project properties
+[INFO] Load branch configuration
+[INFO] Load branch configuration (done) | time=1ms
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=9ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=30ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=744ms
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=16ms
+[WARNING] SCM provider autodetection failed. No SCM provider claims to support this project. Please use sonar.scm.provider to define SCM of your project.
+[INFO] Project key: training:test-utall
+[INFO] -------------  Scan Training: Coverage UT all
+[INFO] Load server rules
+[INFO] Load server rules (done) | time=56ms
+[INFO] Base dir: /Users/Olivier/training/sample_projects/coverage_metrics
+[INFO] Working dir: /Users/Olivier/training/sample_projects/coverage_metrics/target/sonar
+[INFO] Source paths: pom.xml, src/main/java
+[INFO] Test paths: src/test/java
+[INFO] Source encoding: UTF-8, default locale: en_US
+[INFO] Index files
+[INFO] Excluded sources: 
+[INFO]   pom.xml
+[INFO] 5 files indexed
+[INFO] 1 file ignored because of inclusion/exclusion patterns
+[INFO] Quality profile for java: Sonar way
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 5
+[INFO] JavaClasspath initialization
+[WARNING] Bytecode of dependencies was not provided for analysis of source files, you might end up with less precise results. Bytecode can be provided using sonar.java.libraries property
+[INFO] JavaClasspath initialization (done) | time=9ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=1ms
+[INFO] Java Main Files AST scan
+[INFO] 1 source files to be analyzed
+[INFO] 'src/main/java/coverage_metrics/CoverageMetrics.java' generating issue exclusions
+[INFO] Java Main Files AST scan (done) | time=277ms
+[INFO] 1/1 source files have been analyzed
+[INFO] Java Test Files AST scan
+[INFO] 1 source files to be analyzed
+[INFO] 'src/test/java/coverage_metrics/CoverageMetricsTest.java' generating issue exclusions
+[INFO] Java Test Files AST scan (done) | time=44ms
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor JavaSquidSensor [java] (done) | time=769ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/Users/Olivier/training/sample_projects/coverage_metrics/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=70ms
+[INFO] Sensor JaCoCoSensor [java]
+[INFO] Analysing /Users/Olivier/training/sample_projects/coverage_metrics/target/jacoco.exec
+[INFO] No information about coverage per test.
+[INFO] Sensor JaCoCoSensor [java] (done) | time=40ms
+[INFO] Sensor SonarJavaXmlFileSensor [java]
+[INFO] Sensor SonarJavaXmlFileSensor [java] (done) | time=1ms
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=8ms
+[INFO] Sensor CPD Block Indexer
+[INFO] Sensor CPD Block Indexer (done) | time=13ms
+[INFO] No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
+[INFO] 1 file had no CPD blocks
+[INFO] Calculating CPD for 0 files
+[INFO] CPD calculation finished
+[INFO] Analysis report generated in 84ms, dir size=64 KB
+[INFO] Analysis reports compressed in 18ms, zip size=19 KB
+[INFO] Analysis report uploaded in 143ms
+[INFO] ANALYSIS SUCCESSFUL, you can browse http://localhost:9673/dashboard/index/training:test-utall
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at http://localhost:9673/api/ce/task?id=AWOSVY4GgwdV33jUVWzr
+[INFO] Task total time: 5.002 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.795 s
+[INFO] Finished at: 2018-05-24T15:27:50+02:00
+[INFO] Final Memory: 48M/416M
+[INFO] ------------------------------------------------------------------------
